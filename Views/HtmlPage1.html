@@ -1,0 +1,579 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang web học bootstap theo các bản mẫu</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dropdown align-items-center fixed-top navbar-toggleable-sm  bg-primary">
+        <div class="menu-logo">
+            <div class="navbar-brand">
+
+                <span class="navbar-caption-wrap">
+                    <a class="navbar-caption text-white" href="https://mobirise.com/bootstrap-4-theme/">
+                        <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                        WEB MASTER
+                    </a>
+                </span>
+            </div>
+        </div>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" data-toggle="dropdown" id="navbardrop">
+                        KHÓA HỌC
+                    </a>
+                    <div class="dropdown-menu bg-primary border-0">
+                        <a class="dropdown-item text-white p-2" href="#">FrontEnd Angular</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">FrontEnd Reactjs</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">FrontEnd Vuejs</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">BackEnd Java</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">BackEnd Nodejs</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">BackEnd PHP</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">BackEnd Python</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link link dropdown-toggle text-white" href="#" data-toggle="dropdown">
+                        LỘ TRÌNH HỌC
+                    </a>
+                    <div class="dropdown-menu bg-primary border-0">
+                        <a class="dropdown-item text-white p-2" href="#">Lộ trình căn bản</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">Lộ trình hiệu quả</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">Lộ trình tự tin</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">Lộ trình nâng cao</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">Lộ trình chuyên sâu, dự án</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link link dropdown-toggle text-white" href="#" data-toggle="dropdown">
+                        ĐỘI NGŨ ĐÀO TẠO
+                    </a>
+                    <div class="dropdown-menu bg-primary border-0">
+                        <a class="dropdown-item text-white p-2" href="#">Đối tác<br></a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">Doanh nghiệp<br></a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">Đội ngũ Trainner<br></a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">Đội ngũ trợ giảng<br></a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link link dropdown-toggle text-white" href="#" data-toggle="dropdown">
+                        GIỚI THIỆU
+                    </a>
+                    <div class="dropdown-menu bg-primary border-0">
+                        <a class="dropdown-item text-white p-2" href="#">Lịch sử hình thành</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">Thành tích trung tâm</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">Cơ hội việc làm</a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item text-white p-2" href="#">Liên hệ tư vấn</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="navbar-buttons mbr-section-btn flex-row ml-md-auto d-none d-md-flex">
+                <button class="btn btn-white-outline">Đăng kí</button>
+                <button class="btn btn-white-outline">Đăng nhập</button>
+            </div>
+
+        </div>
+    </nav>
+    <div class="quangcao">
+        <div id="commercial" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#commercial" data-slide-to="0" class="active"></li>
+                <li data-target="#commercial" data-slide-to="1"></li>
+                <li data-target="#commercial" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../Image/Laptrinh.jpg" style=" width:100%;height:800px;opacity: 0.4;" />
+                    <div class="carousel-caption">
+                        <h3><span style="background-color:#f2ecec; color:red">Thời gian đào tạo cực sốc</span></h3>
+                        <p><span style="background-color:#f2ecec; color:black">Trở thành lập trình viên chuyên nghiệp sau 100 giờ</span></p>
+                        <button class="btn text-white" style="background-color:red; height:45px; font-size:20px;">ĐĂNG KÍ NGAY !</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Image/hetkhoa.jpg" style=" width:100%; height:800px;opacity: 0.4;" />
+                    <div class="carousel-caption ">
+                        <h3><span style="background-color:#f2ecec; color:red">Nhận bằng lập trình viên chuẩn quốc tế</span></h3>
+                        <p><span style="background-color:#f2ecec; color:black">Kết thúc khóa học được cấp bằng</span></p>
+                        <button class="btn text-white" style="background-color:red; height:45px; font-size:20px;">ĐĂNG KÍ NGAY !</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Image/hotrovieclam.jpg" style=" width:100%; height:800px;opacity: 0.4;" />
+                    <div class="carousel-caption">
+                        <h3><span style="background-color:#f2ecec; color:red">Cơ hội làm việc trong doanh nghiệp hàng đầu trong ngành CNTT</span></h3>
+                        <p><span style="background-color:#f2ecec; color:black">Hỗ trợ việc làm sau khóa học</span></p>
+                        <button class="btn text-white" style="background-color:red; height:45px; font-size:20px;">ĐĂNG KÍ NGAY !</button>
+
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#commercial" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#commercial" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <h3 class="text-center mt-3">Web master system</h3>
+    <p class="text-center"> Hệ thống đào tạo lập trình viên chuẩn quốc tế</p>
+    <div class="Course" style="margin-right:15px;margin-left:15px;">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 my-1">
+                <div class="card h-100 text-center border-0">
+                    <a href="#" style="margin:auto;"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW8n85US4Du4E6g6X4qHCCW9mm-8QoXcj-5xmZURM4j0Lj5jWF" class="card-img-top rounded-circle align-items-center" style="width:180px ; max-width:100%" /></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Frontend Angular</a>
+                        </h4>
+                        <p class="card-text">
+                            Angular là Framework Javasprip giúp việc lập trình Frontend trở nên đơn giản hơn.
+                            Khóa học giúp bạn tự tin sử dụng Angular với các kĩ thuật tối ưu trang web hay sử dụng.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-1">
+                <div class="card h-100 text-center border-0">
+                    <a href="#" style="margin:auto;"> <img src="https://edu.toidayhoc.com/wp-content/uploads/2019/03/react.png" class="card-img-top rounded-circle align-items-center" style="width:180px ; max-width:100%" /></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Frontend Reactjs</a>
+                        </h4>
+                        <p class="card-text">
+                            Reactjs là thư viện lớn được nhiều doanh nghiệp ưu dùng trong Frontend.
+                            Khóa học giúp bạn làm chủ Reactjs và tự tin khi đi phỏng vấn trước các doanh nghiệp.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-1">
+                <div class="card h-100 text-center border-0">
+                    <a href="#" style="margin:auto;"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0RTw8f54VCf53XocuLUbZmgXA5tj10wT2KtZn7XZNZIrkYZNJ9A" class="card-img-top rounded-circle align-items-center" style="width:180px ; max-width:100%" /></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Vuejs</a>
+                        </h4>
+                        <p class="card-text">
+                            Vuejs là Framework Javasprip được nhiều người ưu dùng.
+                            Khóa học giúp bạn làm lắm chắc kiến thức về Vuejs và tự tin áp dụng xây dựng ứng dụng Frontend.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-1">
+                <div class="card h-100 text-center border-0">
+                    <a href="#" style="margin:auto;"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ZaA4RDaIKE_plqmBR8cd1Qneec60UFXvgCyvpSkao_ZgqoEp" class="card-img-top rounded-circle align-items-center" style="width:180px ; max-width:100%" /></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Java Web</a>
+                        </h4>
+                        <p class="card-text">
+                            Java là ngôn ngữ lập trình vô cùng mạnh mẽ và bảo mật được nhiều doanh nghiệp tin tưởng sử dụng viết Backend cho các ứng dụng.
+                            Sau khóa học sẽ giúp bạn thành thạo viết Java sử dụng các công cụ hỗ trợ xây dựng viết Java tốt nhất hiện nay.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-1">
+                <div class="card h-100 text-center border-0">
+                    <a href="#" style="margin:auto;"> <img src="../Image/nodejs.png" class="card-img-top rounded-circle align-items-center" style="width:180px ; max-width:100%" /></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Nodejs</a>
+                        </h4>
+                        <p class="card-text">
+                            Nodejs được giới thiệu năm 2009 cho phép bạn dùng JavaScript lập trình phía server.
+                            Sau khóa học sẽ giúp bạn xây dựng được Web siêu tốc độ
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-1 ">
+                <div class="card h-100 text-center border-0">
+                    <a href="#" style="margin:auto;"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR88HogZXPdG4Pt9htKHosnbfHkbInmkh6wVy7QP_dhcspkohwb" class="card-img-top rounded-circle align-items-center" style="width:180px ; max-width:100%" /></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">PHP</a>
+                        </h4>
+                        <p class="card-text">
+                            Trở thành lập trình viên PHP thực thụ theo tiêu chuẩn lập trình viên quốc tế.
+                            Khóa học PHP giải thích đầy đủ về kiến trúc MVC,PHP/Mysql qua các bài tập được chọn lọc phù hợp với khả
+                            năng của học viên
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-1">
+                <div class="card h-100 text-center border-0">
+                    <a href="#" style="margin:auto;"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO2kaIic92caeqp5GH5xx1rbeI5eufGVAdEM_T035SU_FisbzO" class="card-img-top rounded-circle align-items-center" style="width:180px ; max-width:100%" /></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">ASP.NET</a>
+                        </h4>
+                        <p class="card-text">
+                            Kết thúc khóa học lập trình viên ASP.NET MVC tại Web master học viên có thể hoàn thành một website ASP.NET
+                            gồm các chức năng cơ bản, tương thích với các thiết bị khác nhau.Đưa lên host và quản trị.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 my-1 ">
+                <div class="card h-100 text-center border-0">
+                    <a href="#" style="margin:auto;"> <img src="../Image/full.png" class="card-img-top rounded-circle align-items-center" style="width:180px ; max-width:100%" /></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Fullstack</a>
+                        </h4>
+                        <p class="card-text">
+                            Khóa học đào tạo từ a-z , đầy đủ các kiến thức cần phải có để xây dựng một ứng dụng hoàn trình. Kết thúc khóa học bạn có thể tự tin
+                            phỏng vấn ở các doanh nghiệp
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center" style="margin:auto;">
+            <button class="btn text-white" style="background:#ff0000; height:50px;width:300px; font-size:20px;">
+                Đăng kí học thử
+                <b>miễn phí</b> !
+            </button>
+        </div>
+    </div>
+
+    <h3 class="mt-4">Đội ngũ giảng viên</h3>
+    <div class="teacher" style="margin-right:15px; margin-left:15px;">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 my-1">
+                <div class="card h-100 border-0">
+                    <a href="#" style="margin:auto;"> <img src="https://uetcodehub.xyz/images/longtq-200x200.jpg" class="card-img-top rounded-circle border border-info" style="width:200px ; max-width:100%" /></a>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">
+                            <a href="#">TS. Trần Quốc Long</a>
+                        </h4>
+                        <p class="card-text">
+                            <ul>
+                                <li>
+                                    TS Khoa học máy tính tại Georgia Tech, Hoa Kỳ
+                                </li>
+                                <li>
+                                    Chủ nhiệm bộ môn KHMT, Trường ĐH Công nghệ, ĐHQGHN
+                                </li>
+                                <li>
+                                    15 năm kinh nghiệm dạy lập trình và thuật toán
+                                </li>
+                            </ul>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 my-1">
+                <div class="card h-100 border-0">
+                    <a href="#" style="margin:auto;"> <img src="https://uetcodehub.xyz/images/lsq-200x200.jpg" class="card-img-top rounded-circle border border-info" style="width:200px ; max-width:100%" /></a>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">
+                            <a href="#">TS. Lê Sỹ Quang</a>
+                        </h4>
+                        <p class="card-text">
+                            <ul>
+                                <li>
+                                    Huy chương bạc tin học quốc tế
+                                </li>
+                                <li>
+                                    Chuyên gia về thuật toán tại Google
+                                </li>
+                                <li>
+                                    20 năm kinh nghiệm về lập trình và thuật toán
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 my-1">
+                <div class="card h-100 border-0">
+                    <a href="#" style="margin:auto;"> <img src="https://uetcodehub.xyz/images/thuandp-200x200.jpg" class="card-img-top rounded-circle border border-info" style="width:200px ; max-width:100%" /></a>
+                    <div class="card-body">
+                        <h4 class="card-title text-center">
+                            <a href="#">PGS. TS. Đỗ Phan Thuận</a>
+                        </h4>
+                        <p class="card-text">
+                            <ul>
+                                <li>
+                                    Huấn luyện viên đội tuyển Tin học Việt Nam
+                                </li>
+                                <li>
+                                    Giảng viên Viện CNTT, Đại học Bách khoa Hà Nội
+                                </li>
+                                <li>
+                                    20 năm kinh nghiệm về lập trình và thuật toán
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center" style="margin:auto;">
+            <button class="btn text-white" style="background:#ff0000; height:50px;width:300px; font-size:20px;">
+                Đăng kí học thử
+                <b>miễn phí</b> !
+            </button>
+        </div>
+    </div>
+    <h3 class="mt-4 mb-4">Sự kiện</h3>
+    <div class="event">
+        <div class="row my-2" style="margin-left:15px;margin-right:15px;">
+            <div class="col-lg-2 col-md-3 col-sm-4 mx-3" style="min-width:355px">
+                <div class="card h-100 border-0">
+                    <a href="#" title="Lễ khai trương cơ sở mới">
+                        <img src="https://image.thanhnien.vn/660/uploaded/minhnguyet/2019_08_17/khanh_thanh_tt_khuyet_tat_vzuw.jpg" style="height:200px; width:355px; min-width:365px;" title="Lễ khai trương cơ sở mới tại Hà Nội" alt="Lễ khai trương cơ sở mới tại Hà Nội">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-6 mx-3">
+                <div class="card h-100 border-0">
+                    <h4><a class="post-title-mini main-color-1-hover" href="#" title="Khai trương cơ sở mới tại Cầu Giấy">Khai trương cơ sở mới tại cầu giấy</a></h4>
+                    <div>
+                        &nbsp; &nbsp; Sáng ngày 05/10, tại 263 Phạm Văn Đồng, Cầu Giấy trung tâm Web master tổ chức khai trương cơ sở mới. Cơ sở mới thiết bị được nắp đặt hoàn
+                        toàn mới phục vụ cho quá trình giảng dạy tại trung tâm. Có rất nhiều doanh nghiệp cùng học đã viên tham gia lễ khai trương.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-2" style="margin-left:15px;margin-right:15px;">
+            <div class="col-lg-2 col-md-3 col-sm-4 mx-3" style="min-width:355px">
+                <div class="card h-100 border-0">
+                    <a href="#" title="Hội thảo Google">
+                        <img src="http://www.tapchicongnghe.vn/wp-content/uploads/2019/08/google_webmaster-5.jpg" style="height:200px; width:355px; min-width:365px;" title="Hội thảo Google" alt="Hội thảo Google">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-6 mx-3">
+                <div class="card h-100 border-0">
+                    <h4><a class="post-title-mini main-color-1-hover" href="#" title="Khai trương cơ sở mới tại Cầu Giấy">Hội thảo Google</a></h4>
+                    <div>
+                        &nbsp; &nbsp;Hội thảo Webmaster, chuỗi sự kiện đào tạo miễn phí về xây dựng website được Google tổ chức tại nhiều quốc gia toàn cầu, đã được mang đến Việt Nam lần đầu tiên vào ngày 13/8 vừa qua.
+                        Các chuyên gia về công cụ tìm kiếm đến từ Google Thụy Sĩ, Singapore và Nhật Bản được mời đến sự kiện để chia sẻ về những đề tài bổ ích mà các chuyên gia website (Webmaster)
+                        và các chuyên viên SEO có thể ứng dụng để nâng cao hiệu suất hoạt động của website mình trên kết quả tìm kiếm Google
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-2" style="margin-left:15px;margin-right:15px;">
+            <div class="col-lg-2 col-md-3 col-sm-4 mx-3" style="min-width:355px">
+                <div class="card h-100 border-0">
+                    <a href="#" title="Tư vấn việc làm">
+                        <img src="http://vicmsaigon.vn/upload/news/HIK_8175-e1532332713249.jpg" style="height:200px; width:355px; min-width:365px;" title="Tư vấn việc làm" alt="Tư vấn việc làm">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-6 mx-3">
+                <div class="card h-100 border-0">
+                    <h4><a class="post-title-mini main-color-1-hover" href="#" title="Tư vấn việc làm">Tư vấn việc làm</a></h4>
+                    <div>
+                        &nbsp; &nbsp;Ngày 16/7/2018, tại hội trường trung tâm Web master đã diễn ra buổi hội thảo Tư vấn việc làm ngành Công nghệ Thông tin tại Nhật Bản.
+                        Buổi hội thảo do trung tâm cùng các doanh nghiệp hàng đầu tại Việt Nam cùng phối hợp tổ chức. Để cuộc hội thảo diễn ra tốt đẹp, đạt thành công cao kính mong các học viên
+                        dành thời gian tham gia để được tư vấn, định hướng cho tương lai.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="registration mt-4 py-2" style="background-color:#e9ecef">
+        <div class="container">
+            <h3 class="text-center">ĐĂNG KÝ HỌC THỬ MIỄN PHÍ</h3>
+            <div class="text-center"><b>(Đăng ký ngay để trải nghiệm hệ thống học tiếng Anh giao tiếp đã giúp hơn 100.000 học viên thành công <br>trên con đường chinh phục tiếng Anh. Và giờ, đến lượt bạn ... )</b></div>
+            <div class="row my-2">
+                <div class="col-sm-12">
+                    <form id="dangkihocthu" name="dangkihocthu">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group" id="input-name">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Họ Tên">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group" id="input-number">
+                                    <input type="text" class="form-control" id="number" name="number" placeholder="Số người tham dự">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group" id="input-phone">
+                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Số điện thoại">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group" id="input-email">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group" id="input-location_city_id">
+                                    <select name="location_city_id" class="form-control">
+                                        <option value="" selected="selected">- Tỉnh thành bạn đang sinh sống -</option>
+                                        <option value="1471419030-5m0i-1336-1k80-275892616r50">Hà Nội</option>
+                                        <option value="1471419543-77s5-83it-g000-9j600uz74951">TP Hồ Chí Minh</option>
+                                        <option value="none">Tỉnh khác</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group" id="input-training_location_id">
+                                    <select name="training_location_id" id="training_location_id" class="form-control">
+                                        <option value="1" selected="selected">- Chọn cơ sở gần bạn nhất -</option>
+                                        <option value="2">Cơ sở: 485 Hoàng Quốc Việt, Cầu Giấy</option>
+                                        <option value="3">Cơ sở: 140 Nguyễn Lương Bằng, Đống Đa</option>
+                                        <option value="4">Cơ sở: Tầng 15 Tòa Nhà CTM, Số 139 Cầu Giấy</option>
+                                        <option value="5">Cơ sở: Số 32, Ngõ 168, Nguyễn Xiển, Thanh Xuân</option>
+                                        <option value="6">Cơ sở: Số 76 Trần Đại Nghĩa, Hai Bà Trưng</option>
+                                        <option value="7">Cơ sở: 51A Hồ Tùng Mậu, Cầu Giấy</option>
+                                        <option value="8">Cơ sở: 447 Giải Phóng</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="Success">
+                                    <input class="form-control text-white" style="background:#ff0000;" id="btn-gui" type="button" value="ĐĂNG KÝ NGAY">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer style="background-color:#adb5bd">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+
+            <!-- Footer links -->
+            <div class="row text-center text-md-left pb-3" style="background-color:#adb5bd">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Web master</h6>
+                    <p>
+                        Trung tâm đào tạo lập trình viên wed hàng đầu Việt Nam. Lựa chọn số một của mọi lập
+                        trình viên.
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Doanh nghiệp liên kết</h6>
+                    <p>
+                        <a href="#!">SamSung</a>
+                    </p>
+                    <p>
+                        <a href="#!">VNG</a>
+                    </p>
+                    <p>
+                        <a href="#!">MISA</a>
+                    </p>
+                    <p>
+                        <a href="#!">FPT</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Tư vấn trực tuyến</h6>
+                    <p>
+                        <a href="#!">Lộ trình học</a>
+                    </p>
+                    <p>
+                        <a href="#!">Khóa học</a>
+                    </p>
+                    <p>
+                        <a href="#!">Bằng được cấp</a>
+                    </p>
+                    <p>
+                        <a href="#!">Việc làm</a>
+                    </p>
+                </div>
+
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <p>
+                        <i class="fas fa-home mr-3"></i> Thanh xuân, Cầu Giấy, Hà Nội
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> info@gmail.com
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3" ></i> + 01 234 567 88
+                    </p>
+                    <p>
+                        <i class="fas fa-print mr-3" ></i> + 01 234 567 89
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Footer links -->
+
+            <hr>
+
+        </div>
+        <!-- Footer Links -->
+        <div class="footer-copyright text-center py-3" style="background-color:#76787b; width:100%;">
+            © 2018 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> Webmaster.com</a>
+        </div>
+        <!-- Grid row -->
+    </footer>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</body>
+</html>
